@@ -1,0 +1,28 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "rest api session login",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "kontol": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongodb"
+  ],
+  "author": "bolaxd",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19",
+    "sequelize": "^6.21.4"
+  }
+}
